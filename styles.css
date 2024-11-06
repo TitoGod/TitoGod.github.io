@@ -60,3 +60,32 @@ footer {
     background-color: #2d89ef;
     color: #fff;
 }
+/* Estilos del contenedor del encabezado */
+.header-container {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+/* Estilos de la foto de perfil */
+.profile-pic {
+    width: 120px;           /* Tamaño de la imagen */
+    height: 120px;
+    border-radius: 50%;     /* Hacer la imagen circular */
+    object-fit: cover;      /* Ajustar la imagen para que cubra bien */
+    border: 2px solid #2d89ef; /* Bordes opcionales */
+}
+
+/* Estilos de texto en el encabezado */
+.header-text h1 {
+    margin: 0;
+    font-size: 1.8rem;
+    color: #333;
+}
+
+.header-text p {
+    color: #666;
+}
